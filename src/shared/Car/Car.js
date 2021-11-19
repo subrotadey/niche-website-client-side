@@ -19,12 +19,12 @@ const Car = ({ car }) => {
                     {car.name}
                 </Typography>
                 <Typography sx={{ textAlign: 'justify', p: 1 }}>
-                    {car.description.slice(0, 55)}
+                    {car.description}
                 </Typography>
                 <Typography variant='h6'>
-                    Price:$ {car.Price}
+                    Price: {car.price}
                 </Typography>
-                <Link to={`/orders/${car._id}`}><Button variant='contained'>purchase now</Button></Link>
+                <Link to={`/orders/${car._id}`}><Button variant='contained' sx={{backgroundColor: 'yellow', color: 'black'}}>purchase now</Button></Link>
             </Paper>
         </Grid>
     );

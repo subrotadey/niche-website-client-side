@@ -15,18 +15,18 @@ const bannerBg = {
 
 const TopBanner = () => {
     return (
-        <Box style={bannerBg} sx={{ mt: 2 ,minHeight:"500px"}}>
+        <Box style={bannerBg} sx={{ mt: 2 ,minHeight:"600px"}}>
             <Container>
                 <Grid container spacing={2}>
                     <Grid item xs={12} md={6} sx={{mt:10}}>
                         <Box sx={{ textAlign: 'left' }}>
-                            <Typography variant='h4' sx={{ fontWeight: 700 ,color:'tomato'}}>
-                                World's Best Car Dealer
+                            <Typography variant='h4' sx={{ fontWeight: 700 ,color:'black'}}>
+                                Discover Your Best Cover
                             </Typography>
                             <Typography sx={{paddingY:5}}>
-                                we provide world class auto electrical cars.There is a huge collection of electical car . We got world Best Dealer Award in 2020.
+                                we provide world class auto electrical cars.There is a huge collection of electrical car . We got world Best Dealer Award in 2020.
                             </Typography>
-                            <Link to='/collection'><Button variant='contained' sx={{backgroundColor:'tomato'}}>Explore Now</Button></Link>
+                            <Link to='/collection'><Button variant='contained' sx={{backgroundColor:'green'}}>Explore Now</Button></Link>
                         </Box>
                     </Grid>
                 </Grid>

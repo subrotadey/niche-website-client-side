@@ -26,7 +26,7 @@ const TopNavigation = () => {
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" component="div" sx={{ display: 'inline' }} >
-                        Car Fair
+                        CarDekho
                     </Typography>
                     <Box sx={{ flexGrow: 1 }}>
 
