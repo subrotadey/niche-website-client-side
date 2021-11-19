@@ -30,10 +30,11 @@ const TopNavigation = () => {
                     </Typography>
                     <Box sx={{ flexGrow: 1 }}>
 
-                        <Link style={{ textDecoration: 'none', color: 'white', marginRight: 1 }} to='/collection'> Collections</Link>
-                        {user?.email && < Link style={{ textDecoration: 'none', color: 'white' }} to='/dashboard'> Dashboard</Link>}
+                        
                 </Box>
                 <Box>
+                <Link style={{ textDecoration: 'none', color: 'white', marginRight: 1 }} to='/collection'><Button variant='contained' sx={{}}>Collections</Button></Link>
+                        {user?.email && < Link style={{ textDecoration: 'none', color: 'white' }} to='/dashboard'><Button variant='contained' sx={{mx:3}}>Dashboard</Button></Link>}
                     {!user?.email && <Link to='/login'><Button color="inherit" sx={{ color: 'white' }}>Login</Button></Link>}
                     {user?.email && <Typography sx={{ display: 'inline', right: 0 }}>{user.displayName}</Typography>}
                     {user?.email && <Button variant='contained' sx={{ color: 'white', backgroundColor: 'gray', m: 1 }} onClick={logOut}>Log out</Button>}

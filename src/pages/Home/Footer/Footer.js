@@ -8,7 +8,7 @@ const Footer = () => {
         <Box>
             <Box className='top-footer  text-white py-5 mt-5'>
                     <h1>Be with Us</h1>
-                    <h3>Get healthy service, treatment and solutions to your problems from our experts!</h3>
+                    <h3>Be Connected With Us and We Care Your Emotion</h3>
             </Box>
             <Box>
                 <Box sx={{ flexGrow: 1 , backgroundColor:'black', color:'white'}}>
@@ -18,28 +18,24 @@ const Footer = () => {
                             <h2>Contact Information</h2>
                             <hr />
                             <p>1675/A, O.R Nizam Road Chittagong Bangladesh</p>
-                                <p> <a href="/">http://cscrbd.com/</a></p>
-                                <p> <a href="/">info@cscrbd.com</a></p>
+                                <p> <a href="/">https://car-fair.web.app/</a></p>
+                                <p> <a href="/">info@car-fairbd.com</a></p>
+                                <p>01596******</p>
                                 <p>031-656565</p>
-                                <Box>
-                                    <i className="fab fa-facebook-f px-2 fs-4"></i>
-                                    <i className="fab fa-twitter px-4 fs-4"></i>
-                                    <i className="fab fa-instagram px-2 fs-4"></i>
-                                </Box>
+                                
                           </Box>
                         </Grid>
                         <Grid item xs={2} sm={4} md={4}>
-                            <h2>Contact Information</h2> 
+                            <h2>More Information</h2> 
                             <hr />
                             <Box>
                                 <ul>
                                     <ol>
-                                        <p><a href="/">Countries</a></p>
-                                        <p><a href="/">Religion</a></p>
-                                        <p><a href="/">Districts</a></p>
-                                        <p><a href="/">Airports</a></p>
-                                        <p><a href="/">Hotels</a></p>
-                                        <p><a href="/">Interested Places</a></p>
+                                        <p>Dashboard</p>
+                                        <p>Update Car</p>
+                                        <p>User Reviews</p>
+                                        <p>Airports</p>
+                                        <p>Maps</p>
                                     </ol>
                                 </ul>
                             </Box>
