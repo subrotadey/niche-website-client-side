@@ -9,7 +9,7 @@ const Banner = () => {
         <Container sx={{ m:3}}>
       <Grid container spacing={2}>
         <Grid item xs={12} md={6}>
-            <img style={{width: '100%'}} src={img}/>
+            <img style={{width: '100%'}} src={img} alt={img}/>
         </Grid>
         <Grid item xs={12} md={6}>
             <Typography variant='h4' sx={{ fontWeight: 700 ,color:'black'}}>
