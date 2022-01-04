@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Car = ({ car }) => {
     return (
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} md={4}>
             <Paper sx={{ boxShadow: '3px 3px 10px 3px gray', p:3 }}>
                 <CardMedia
                     component="img"
