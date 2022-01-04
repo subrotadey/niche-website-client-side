@@ -7,7 +7,7 @@ import Car from '../Car/Car';
 const Cars = () => {
     const { cars } = useData()
     return (
-        <Box sx={{backgroundColor: 'gray'}}>
+        <Box>
             <Container sx={{ py: 5}}>
                 <Typography variant='h3' sx={{ marginBottom: 2 }}>
                     Our Best Collection
