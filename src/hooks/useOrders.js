@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 const useOrders = () => {
     const [orders, setOrders] = useState([])
     useEffect(() => {
-        fetch('https://agile-garden-87094.herokuapp.com/orders')
+        fetch('https://carniche.onrender.com/orders')
             .then(res => res.json())
             .then(data => setOrders(data))
     }, [orders])
