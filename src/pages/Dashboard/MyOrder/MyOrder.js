@@ -14,7 +14,7 @@ const MyOrder = ({ order }) => {
     const handleCancelOrder = id => {
         const process = window.confirm('Are you sure to delete?')
         if (process) {
-            fetch(`https://agile-garden-87094.herokuapp.com/orders/${id}`, {
+            fetch(`https://carniche.onrender.com/orders/${id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())
