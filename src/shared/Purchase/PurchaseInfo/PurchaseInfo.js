@@ -30,7 +30,7 @@ const PurchaseInfo = ({ car }) => {
         const news = 'status'
         userInfo[news] =statusof;
             e.preventDefault()
-        fetch('https://agile-garden-87094.herokuapp.com/orders', {
+        fetch('https://carniche.onrender.com/orders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
