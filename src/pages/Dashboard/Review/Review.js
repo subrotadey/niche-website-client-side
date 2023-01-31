@@ -33,7 +33,7 @@ const Review = () => {
     const handleSubmit = e => {
         e.preventDefault()
         const ratingData = { rate, value, name: user?.displayName, email: user?.email }
-        fetch('https://agile-garden-87094.herokuapp.com/review', {
+        fetch('https://carniche.onrender.com/review', {
             method: "POST",
             headers: {
                 'content-type': 'application/json'
