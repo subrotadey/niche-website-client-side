@@ -5,7 +5,9 @@ const useMyOrders = () => {
   const { user } = useAuth();
   const [myOrders, setMyOrders] = useState([]);
   useEffect(() => {
-    fetch(`http://localhost:5000/orders/${user?.email}`)
+    fetch(
+      `https://niche-website-server-side-zizx.onrender.com/orders/${user?.email}`
+    )
       .then((res) => res.json())
       .then((data) => setMyOrders(data));
   }, [user, myOrders]);

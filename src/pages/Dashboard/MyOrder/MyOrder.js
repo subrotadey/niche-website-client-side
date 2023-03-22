@@ -9,9 +9,12 @@ const MyOrder = ({ order }) => {
   const handleCancelOrder = (id) => {
     const process = window.confirm("Are you sure to delete?");
     if (process) {
-      fetch(`http://localhost:5000orders/${id}`, {
-        method: "DELETE",
-      })
+      fetch(
+        `https://niche-website-server-side-zizx.onrender.com/orders/${id}`,
+        {
+          method: "DELETE",
+        }
+      )
         .then((res) => res.json())
         .then((data) => {
           if (data.deletedCount > 0) {

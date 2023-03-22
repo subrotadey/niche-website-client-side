@@ -4,7 +4,7 @@ const useData = () => {
   const [cars, setCars] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    fetch("http://localhost:5000/cars")
+    fetch("https://niche-website-server-side-zizx.onrender.com/cars")
       .then((res) => res.json())
       .then((data) => {
         setCars(data);

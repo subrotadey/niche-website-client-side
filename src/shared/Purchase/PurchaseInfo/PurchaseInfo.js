@@ -31,7 +31,7 @@ const PurchaseInfo = ({ car }) => {
     const news = "status";
     userInfo[news] = statusof;
     e.preventDefault();
-    fetch("http://localhost:5000orders", {
+    fetch("https://niche-website-server-side-zizx.onrender.com/orders", {
       method: "POST",
       headers: {
         "content-type": "application/json",
