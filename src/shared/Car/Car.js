@@ -7,10 +7,10 @@ import { Link } from 'react-router-dom';
 const Car = ({ car }) => {
     return (
         <Grid item xs={12} md={4}>
-            <Paper sx={{ boxShadow: '3px 3px 10px 3px gray', p:3 }}>
+            <Paper sx={{ boxShadow: '3px 3px 10px 3px gray',pb:1 }}>
                 <CardMedia
                     component="img"
-                    height="300"
+                    height="140"
                     borderRadius="10px"
                     image={car.img}
                     alt="green iguana"
@@ -19,13 +19,14 @@ const Car = ({ car }) => {
                     {car.name}
                 </Typography>
                 <Typography sx={{ textAlign: 'justify', p: 1 }}>
-                    {car.description}
+                    {car.description.slice(0, 55)}
                 </Typography>
                 <Typography variant='h6'>
-                    Price: {car.price}
+                    Price:$ {car.price}
                 </Typography>
-                <Link to={`/orders/${car._id}`}><Button variant='contained' sx={{backgroundColor: 'yellow', color: 'black'}}>purchase now</Button></Link>
+                <Link to={`/orders/${car._id}`}><Button variant='contained'>purchase now</Button></Link>
             </Paper>
+
         </Grid>
     );
 };

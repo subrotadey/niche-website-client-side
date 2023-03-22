@@ -1,10 +1,9 @@
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
+  apiKey: "AIzaSyDDDWlfcJh_1qFyhQBtJVRbQUVDA921Ugg",
+  authDomain: "car-fair.firebaseapp.com",
+  projectId: "car-fair",
+  storageBucket: "car-fair.appspot.com",
+  messagingSenderId: "727955171174",
+  appId: "1:727955171174:web:4fafec2b61f59594ffcaa7",
 };
-
 export default firebaseConfig;
